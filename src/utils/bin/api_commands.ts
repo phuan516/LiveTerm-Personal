@@ -2,6 +2,8 @@
 
 import { getProjects, getQuote, getReadme, getWeather } from '../api';
 
+import * as cow from 'cowsay-browser';
+
 export const projects = async (args: string[]): Promise<string> => {
   const projects = await getProjects();
   return projects
@@ -13,8 +15,13 @@ export const projects = async (args: string[]): Promise<string> => {
 };
 
 export const quote = async (args: string[]): Promise<string> => {
-  const data = await getQuote();
-  return data.quote;
+  if (args.length < 1 || args[0] === '') {
+    const quote = (await getQuote()).quote;
+    return cow.say({ text: quote });
+  } else {
+    const quote = args.join(' ');
+    return cow.say({ text: quote });
+  }
 };
 
 export const readme = async (args: string[]): Promise<string> => {
