@@ -4,8 +4,8 @@
   "name": "Peter Huang",
   "ascii": "phuan516",
   "social": {
-    "github": "github",
-    "linkedin": "linkedin"
+    "github": "phuan516",
+    "linkedin": "peter-huang-904b82164"
   },
   "email": "phuan516@mtroyal.ca",
   "ps1_hostname": "phuan516",
@@ -18,18 +18,18 @@
   },
   "colors": {
     "light": {
-      "background": "#FBF1C9",
-      "foreground": "#3C3836",
-      "yellow": "#D79921",
-      "green": "#98971A",
-      "gray": "#7C6F64",
-      "blue": "#458588",
-      "red": "#CA2124"
+      "background": "#2b2b2b",
+      "foreground": "#e6e1dd",
+      "yellow": "#efce69",
+      "green": "#A3BE8C",
+      "gray": "#88C0D0",
+      "blue": "#EBCB8B",
+      "red": "#BF616A"
     },
     "dark": {
-      "background": "#2E3440",
-      "foreground": "#E5E9F0",
-      "yellow": "#5E81AC",
+      "background": "#2b2b2b",
+      "foreground": "#e6e1dd",
+      "yellow": "#efce69",
       "green": "#A3BE8C",
       "gray": "#88C0D0",
       "blue": "#EBCB8B",
