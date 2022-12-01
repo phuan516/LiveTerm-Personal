@@ -2,6 +2,8 @@
 
 My profile in a terminal
 
+![image](https://user-images.githubusercontent.com/31741081/204993805-a7ec3d7a-40ad-41dc-be8d-bf544529aa2f.png)
+
 ## Link
 Access my [site](https://peterhuang.vercel.app/)
 
